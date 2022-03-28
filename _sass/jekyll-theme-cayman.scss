@@ -109,7 +109,7 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-image: linear-gradient(120deg, #155799, #646661);
 
   @include large {
     padding: 5rem 6rem;
@@ -127,7 +127,9 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
-
+  text-align: left;
+  display: inline-block;
+  // display:block;
   @include large {
     font-size: 3.25rem;
   }
@@ -145,17 +147,21 @@ a {
   margin-bottom: 2rem;
   font-weight: normal;
   opacity: 0.7;
+  color: white !important;
 
   @include large {
     font-size: 1.25rem;
+    color: white !important;
   }
 
   @include medium {
     font-size: 1.15rem;
+    color: white !important;
   }
 
   @include small {
     font-size: 1rem;
+    color: white !important;
   }
 }
 
